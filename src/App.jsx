@@ -1,13 +1,19 @@
 import Header from "./components/header";
+import SubHeader from "./components/Subheader";
 import Nav from './components/Navigation';
-import Project from './components/Project';
 import Footer from "./components/Footer";
+import './index.css';
+
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
   return <div>
-    <Header />
     <Nav />
+    <Header />
+    <SubHeader />
+    <Outlet />
+    <Footer />
   </div>
   
 }
