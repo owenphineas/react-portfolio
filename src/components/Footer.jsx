@@ -4,7 +4,7 @@ import envelope from '../assets/envelope-fill.svg';
 
 function Footer() {
     return <footer className="footer">
-        <div className="btn btn-link btn-floating btn-lg text-dark m-1 socials">
+        <div className="btn-link btn-floating btn-lg text-dark m-1 socials">
 
             <a href="https://github.com/owenphineas">
             <img src={github} />

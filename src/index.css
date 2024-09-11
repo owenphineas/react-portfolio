@@ -25,10 +25,35 @@
 .footer div {
     display: flex;
     justify-content: center;
+    padding: 10px
+    /* border: 2px solid red */
 }
 
 .footer .socials {
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.about {
+    margin: 1rem 25% 5rem 25%;
+}
+
+.about p {
+    text-align: center;
+}
+
+.resume {
+    margin: 1rem 25% 5rem 25%;
+    display: grid;
+    justify-content: center;
+}
+
+/* .resume div {
+    justify-content: center;
+} */
+
+.bold {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
 }
