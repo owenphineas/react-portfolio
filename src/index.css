@@ -45,15 +45,41 @@
 
 .resume {
     margin: 1rem 25% 5rem 25%;
-    display: grid;
+    display: flex;
+    flex-direction:row;
     justify-content: center;
 }
 
 /* .resume div {
-    justify-content: center;
+    border: 1px solid red;
 } */
+
+.resume-headers h4 {
+    text-align: right;
+}
+
+.column {
+    margin: 0 2rem 0 2rem 
+}
+
+.column div {
+    margin-bottom: 2rem;
+}
 
 .bold {
     font-weight: bold;
     margin-bottom: 0.2rem;
+}
+
+.education-label {
+    height: 240px;
+}
+
+.languages-label {
+    height: 80px
+}
+
+.resume-list {
+    list-style-type: none;
+    padding-inline-start: 0;
 }
